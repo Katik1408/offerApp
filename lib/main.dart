@@ -27,12 +27,14 @@ class MyHomePage extends StatelessWidget {
             backgroundColor: Colors.white,
             centerTitle: true,
             elevation: 0.0,
-            flexibleSpace: Container(child: Image.asset('images/food.png')
+            flexibleSpace: Container(child: Image.asset('images/burger.png')
                 // DecorationImage(image: BoxDecoration(image: AssetImage(''))),
                 ),
           ),
         ),
-        body: SingleChildScrollView(child: Container()),
+        body: SingleChildScrollView(
+          child: Container(),
+        ),
       ),
     );
   }
